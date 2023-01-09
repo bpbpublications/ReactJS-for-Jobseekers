@@ -1,0 +1,25 @@
+.BlogCard {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 4px 1px #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.BlogCard > a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.BlogThumbnail {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.BlogTitle {
+    margin: 0;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}

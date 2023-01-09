@@ -1,0 +1,18 @@
+.MainContainer {
+    margin-top: 76px;
+
+    width: 100%;
+    height: calc(100vh - 76px);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.UserGrid {
+    width: 100%;
+    padding: 4% 8%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,18 @@
+body {
+  background-color: #efefef;
+  padding: 0 4%;
+  box-sizing: border-box;
+}
+
+.TODOCard {
+  width: 100%;
+  background-color: white;
+  margin: 16px;
+  border-radius: 8px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.TODOHeading {
+  margin: 0;
+}

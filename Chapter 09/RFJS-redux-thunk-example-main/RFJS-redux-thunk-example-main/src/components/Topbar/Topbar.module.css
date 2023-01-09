@@ -1,0 +1,19 @@
+.Topbar {
+    width: 100%;
+    padding: 20px 4%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px #ccc;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #59CEA4;
+}
+
+.Topbar > h2 {
+    margin: 0;
+}

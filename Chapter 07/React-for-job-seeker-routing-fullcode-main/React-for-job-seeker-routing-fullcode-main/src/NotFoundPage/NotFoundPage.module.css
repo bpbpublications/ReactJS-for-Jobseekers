@@ -1,0 +1,6 @@
+.MainContainer {
+    padding: 4%;
+    box-sizing: border-box;
+    min-height: calc(100vh - 60px);
+    background-color: #ECF9F8;
+}

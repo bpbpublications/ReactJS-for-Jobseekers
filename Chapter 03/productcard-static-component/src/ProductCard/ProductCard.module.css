@@ -1,0 +1,68 @@
+.ProductCard {
+	width: calc(50% - 16px);
+	margin: 8px;
+}
+
+.ProductImage {
+	width: 100%;
+}
+
+.Brand {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0 0 6px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.ProductName {
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #535766;
+}
+
+.PriceWrapper {
+	display: flex;
+	align-items: flex-end;
+	margin: 10px 0 6px;
+}
+
+.ActualPrice {
+	min-width: max-content;
+	font-size: 14px;
+	color: #282c3f;
+	font-weight: 500;
+	margin: 0;
+}
+
+.MRP {
+	text-decoration: line-through;
+	color: #7e818c;
+	font-weight: 400;
+	margin: 0 0 0 5px;
+	font-size: 12px;
+}
+
+.Discount {
+	color: #ff905a;
+	font-weight: 400;
+	font-size: 12px;
+	margin: 0 0 0 5px;
+}
+
+@media (min-width: 600px) {
+	.ProductCard {
+		width: calc(33.33% - 16px);
+	}
+}
+
+@media (min-width: 768px) {
+	.ProductCard {
+		width: calc(25% - 16px);
+	}
+}

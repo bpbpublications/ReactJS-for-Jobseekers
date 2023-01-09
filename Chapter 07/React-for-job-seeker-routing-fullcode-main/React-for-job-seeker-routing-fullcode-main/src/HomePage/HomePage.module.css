@@ -1,0 +1,16 @@
+.MainContainer {
+    padding: 4%;
+    box-sizing: border-box;
+    min-height: 200px;
+    background-color: #fff;
+}
+
+.BlogGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.BlogGrid > div {
+    width: calc(25% - 20px);
+}

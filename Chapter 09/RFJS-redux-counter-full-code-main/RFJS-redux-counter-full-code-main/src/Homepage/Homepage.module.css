@@ -1,0 +1,38 @@
+.MainContainer {
+    margin-top: 76px;
+
+    width: 100%;
+    height: calc(100vh - 76px);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MainContainer > section {
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.First {
+    background-color: #16756F;
+}
+
+.Second {
+    background-color: #1D948E;
+}
+
+.Third {
+    background-color: #8C0220;
+}
+
+.Fourth {
+    background-color: #C1002D;
+}

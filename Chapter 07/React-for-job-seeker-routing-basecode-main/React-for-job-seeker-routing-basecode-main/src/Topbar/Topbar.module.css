@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.MainContainer {
+    width: 100%;
+    padding: 18px 4%;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: white;
+    box-shadow: 0 2px 4px #ccc;
+}
+
+.MenuWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MenuItem {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 24px;
+    cursor: pointer;
+}

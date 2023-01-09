@@ -1,0 +1,8 @@
+.MainCard {
+    width: calc(50% - 20px);
+    box-shadow: 0 0 2px 1px #ccc;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-sizing: border-box;
+}

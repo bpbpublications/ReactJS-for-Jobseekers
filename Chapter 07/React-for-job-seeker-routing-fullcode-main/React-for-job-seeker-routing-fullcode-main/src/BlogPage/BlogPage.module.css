@@ -1,0 +1,38 @@
+.MainContainer {
+    padding: 2% 4%;
+    box-sizing: border-box;
+    min-height: 200px;
+    background-color: #fff;
+}
+
+.BlogContentWrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 4px 1px #ccc;
+}
+
+.BlogThumbnail {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.BlogHeading {
+    font-size: 36px;
+    margin: 0;
+    font-weight: 500;
+    padding: 12px 12px 6px;
+}
+
+.BlogDescription {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    padding: 0 12px 16px;
+    color: rgba(0, 0, 0, 0.8);
+}

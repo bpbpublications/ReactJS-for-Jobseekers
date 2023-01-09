@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body, form, input, select, textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+.MainContainer {
+    width: 100%;
+    padding: 18px 4%;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: white;
+    box-shadow: 0 2px 4px #ccc;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MenuWrapper {
+    width: 100%;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.MenuItem {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 48px 0 0;
+    cursor: pointer;
+}
+
+.SearchWrapper {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.SearchBox {
+    min-width: 300px;
+    border: 0;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.4);
+    padding: 4px 4px 4px 24px;
+    outline: none;
+}
+
+.SearchBox:focus {
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.8);
+}
+
+.SearchIcon {
+    position: absolute;
+    left: 0;
+    width: 18px;
+}

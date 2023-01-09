@@ -1,0 +1,57 @@
+.MainContainer {
+    padding: 4%;
+    box-sizing: border-box;
+    min-height: 200px;
+    background-color: white;
+}
+
+.LoginForm {
+    width: 100%;
+    max-width: 400px;
+    padding: 1.5rem;
+    margin: 0 auto;
+
+    background-color: rgba(162, 225, 219, 0.2);
+    border-radius: 6px;
+    border: 1px solid rgba(162, 225, 219, 0.8);
+}
+
+.MainHeading {
+    margin: 0;
+}
+
+.InputLabel {
+    width: 100%;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    margin: 1.5rem 0 0.5rem;
+}
+
+.InputBox {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.InputBox:focus {
+    border-color: #099d94;
+}
+
+.LoginButton {
+    background-color: #099d94;
+    padding: 12px 36px;
+    border-radius: 6px;
+    border: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}

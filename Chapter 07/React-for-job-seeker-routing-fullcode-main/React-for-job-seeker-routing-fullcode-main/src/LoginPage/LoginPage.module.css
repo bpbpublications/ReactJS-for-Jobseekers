@@ -1,0 +1,18 @@
+.MainContainer {
+    padding: 4%;
+    box-sizing: border-box;
+    min-height: 200px;
+    background-color: #A2E1DB;
+}
+
+.LoginButton {
+    background-color: #099d94;
+    padding: 12px 36px;
+    border-radius: 6px;
+    border: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
