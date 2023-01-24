@@ -3,7 +3,7 @@
 Create High-performance, Dynamic Single-page Applications Using the Most Popular front-end Framework - ReactJS
 
 This is the repository for [ReactJS for Jobseekers
-](https://in.bpbonline.com/products/reactjs-for-jobseekers?variant=43924030357742),published by BPB Publications. 
+](https://bpbonline.com/products/reactjs-for-jobseekers),published by BPB Publications. 
 
 ## About the Book
 When you talk about front-end development, the first thing that comes to any tech evangelist’s mind is the latest front-end frameworks like ReactJS, VueJS, or even Angular. If you are in the tech industry or are interested in front-end development, then we are pretty sure you must have heard about at least one of these frameworks. Based on its popularity and industry acceptance, ReactJS is leading by miles. 
